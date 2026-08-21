@@ -1,0 +1,23 @@
+{
+  "name": "express-logger-middleware",
+  "version": "1.0.0",
+  "description": "Production-ready colorful HTTP request logger middleware for Express.js",
+  "type": "module",
+  "main": "logger/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "express",
+    "logger",
+    "middleware",
+    "http",
+    "logging"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "picocolors": "^1.1.1"
+  }
+}
